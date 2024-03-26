@@ -1,0 +1,81 @@
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+input[type="color"] {
+  margin-bottom: 20px;
+}
+
+input[type="submit"],
+.btn-secondary {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.create-complaint {
+  margin-top: 20px;
+}
+
+.create-complaint input[type="submit"],
+.btn-secondary {
+  width: auto;
+}
+
+.btn-secondary {
+  background-color: #bebebe;
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.create-form span {
+  color: red;
+}
